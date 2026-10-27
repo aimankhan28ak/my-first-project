@@ -1,0 +1,155 @@
+
+/* Stitch n Stone - Website Design */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf6f0;
+    color: #493b32;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #efe3d3;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #72533f;
+}
+
+header p {
+    margin: 5px 0 20px;
+    color: #806653;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    color: #493b32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a66b48;
+}
+
+section {
+    padding: 55px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #e6d5c3;
+    padding: 90px 20px;
+}
+
+#home h2 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+}
+
+#home a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #72533f;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+#home a:hover {
+    background-color: #493b32;
+}
+
+section h2 {
+    font-family: Georgia, serif;
+    color: #72533f;
+    font-size: 30px;
+}
+
+#products {
+    background-color: #fffdf9;
+}
+
+#products h3 {
+    color: #a66b48;
+    margin-top: 30px;
+}
+
+#about {
+    background-color: #efe3d3;
+}
+
+#contact {
+    background-color: #fffdf9;
+}
+
+footer {
+    background-color: #493b32;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+/* Product Gallery */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 35px auto 0;
+}
+
+.product-card {
+    background-color: #faf6f0;
+    width: 300px;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(73, 59, 50, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #efe3d3;
+}
+
+.product-card h3 {
+    margin-bottom: 8px;
+    color: #72533f;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #806653;
+}
